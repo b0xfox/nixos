@@ -2,14 +2,50 @@
 
 {
     environment.systemPackages = with pkgs; [
+        # Desktop
+        rofi-wayland
+        waybar
+        grim
+        slurp
+        
+        # CLI
         git
-        wayland
-        wayland-protocols
-        xdg-desktop-portal-gtk
-        xdg-utils
+        ranger
+        ripgrep
+        fzf
+        fastfetch
+        gotop
+        zip
+        unzip
+
+        # Editors
+        nano
         neovim
-        # waybar
-        # rofi-wayland
-        # dunst
+        kakoune
+        emacs
+
+        # Apps
+        brave
+        firefox
+        discord
+        obs-studio
+        gimp
+        audacity
+        obsidian
+        blockbench
+        prismlauncher
+
+        # Media
+        mpv
+        feh
+        # youtube-dl
+
+        # Dev
+        godot_4
+        unityhub
+        python3
+        # rustup
+        # rustc
+        # cargo
     ];
 }

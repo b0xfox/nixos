@@ -6,6 +6,7 @@
         ./modules/grub.nix
         ./modules/kernel.nix
         ./modules/display-manager.nix
+        ./modules/xdg-portal.nix
         ./modules/sway.nix
         ./modules/nix-settings.nix
         ./modules/garbage-collector.nix
